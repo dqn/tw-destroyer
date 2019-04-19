@@ -45,7 +45,7 @@ def is_exists_account(screen_name):
     return (requests.get(url).status_code == 200)
 
 def usage():
-    print('usage: python destroy.py [screen name] [password]')
+    print('Usage: python destroy.py <screen name> <password>')
 
 def main():
     if len(sys.argv) != 3:

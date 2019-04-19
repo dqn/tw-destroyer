@@ -1,7 +1,7 @@
 # tw-destroyer
 Twitterのアカウントを削除する。
 
-## usage
+## Usage
 ```
-$ python destroy.py [screen name] [password]
+$ python destroy.py <screen name> <password>
 ```
